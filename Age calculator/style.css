@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: "poppins", san-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(130deg, #37028357, #042161);
+  height: 100vh;
+  padding: 10px;
+}
+
+.display {
+  color: #fff;
+  margin: 70px;
+  margin-left: 90px;
+  margin-top: 90px;
+  padding: 30px;
+  width: 80%;
+  max-width: 750px;
+}
+.display h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin: 20px;
+  margin-top: 25px;
+  margin-bottom: 26px;
+}
+.heading {
+  font-weight: 800;
+  color: #0d095e;
+}
+.projectname {
+  color: yellow;
+}
+.calculator {
+  display: flex;
+  width: 75%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #c7b1e9;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+}
+.calculator input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  width: 80%;
+  padding: 12px;
+  font-size: 26px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.calculator button {
+  margin-left: 8px;
+  border: 0;
+  outline: 0;
+  font-weight: 400;
+  font-size: 22px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: yellowgreen;
+  color: #111;
+  cursor: pointer;
+}
+.display p {
+  font: 600;
+  font-size: 32px;
+  margin: 20px;
+  margin-top: 40px;
+  padding: 15px;
+  color: #04163c;
+}
+#date input::-webkit-calender-picker-indicator {
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
