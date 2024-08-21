@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: "poppins", "san-serif";
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #fff, #1f7abb);
+  padding: 50px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+
+  border: 2px solid #44596a;
+  max-width: 620px;
+
+  border-radius: 10px;
+  background: linear-gradient(135deg, #bdd8eb, #6f92af);
+  padding: 40px;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 42px;
+}
+.box {
+  width: 100%;
+  margin: auto;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+.inputdiv {
+  display: flex;
+  background: #bdd8eb;
+  border-radius: 6px;
+  border: 0;
+  outline: 0;
+}
+.inputdiv img {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.box p {
+  color: red;
+  font-size: 22px;
+  margin-top: 10px;
+  padding: 6px;
+}
+.message {
+  font-size: 22px;
+  margin: 4px;
+  padding: 10px;
+  color: black;
+  font-weight: \;;
+}
+#input {
+  border: 0;
+  outline: 0;
+  width: 90%;
+  height: 62px;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 12px;
+  border-radius: 6px;
+  background: #bdd8eb;
+}
+.qr-box {
+  display: none;
+  width: 100%;
+  height: 300px;
+  background-color: #f1f4f6;
+  margin: 18px auto;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: display 3s;
+}
+
+#btn {
+  border: 0;
+  outline: 0;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  padding: 18px;
+  font: 600;
+  font-size: 28px;
+  border-radius: 12px;
+  background: #1008e5;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #3f6aea;
+}
+#qrimage {
+  width: auto;
+  height: 90%;
+  background: transparent;
+  margin: 4px auto;
+}
